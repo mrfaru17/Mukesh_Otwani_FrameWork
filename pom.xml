@@ -17,14 +17,12 @@
 				<version>3.5.4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>XMLFiles/testng.xml</suiteXmlFile>
-						<suiteXmlFile>XMLFiles/sample.xml</suiteXmlFile>
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
 
 	<dependencies>
 
