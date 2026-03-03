@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-18T07:52:37 IST" name="Suite" finished-at="2026-02-18T07:52:58 IST" duration-ms="21158">
+    <groups>
+    </groups>
+    <test started-at="2026-02-18T07:52:37 IST" name="Test" finished-at="2026-02-18T07:52:58 IST" duration-ms="21158">
+      <class name="testcases.LoginApplicationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginApplicationTest@198d6542]" started-at="2026-02-18T07:52:37 IST" name="setup" finished-at="2026-02-18T07:52:40 IST" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginApplicationTest@198d6542]" started-at="2026-02-18T07:52:42 IST" name="loginWithValidCredentials" data-provider="logincredentials" finished-at="2026-02-18T07:52:50 IST" duration-ms="8602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="logoutFromApplication()[pri:2, instance:testcases.LoginApplicationTest@198d6542]" started-at="2026-02-18T07:52:51 IST" name="logoutFromApplication" finished-at="2026-02-18T07:52:56 IST" depends-on-methods="testcases.LoginApplicationTest.loginWithValidCredentials" duration-ms="5151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method signature="verifyFooterLinks()[pri:3, instance:testcases.LoginApplicationTest@198d6542]" started-at="2026-02-18T07:52:56 IST" name="verifyFooterLinks" finished-at="2026-02-18T07:52:56 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks -->
+        <test-method signature="verifyNewUserLinks()[pri:4, instance:testcases.LoginApplicationTest@198d6542]" started-at="2026-02-18T07:52:56 IST" name="verifyNewUserLinks" finished-at="2026-02-18T07:52:57 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginApplicationTest@198d6542]" started-at="2026-02-18T07:52:57 IST" name="tearDown" finished-at="2026-02-18T07:52:58 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginApplicationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2026-02-18T07:52:58 IST" name="Suite (0)" finished-at="2026-02-18T07:53:00 IST" duration-ms="2341">
+    <groups>
+    </groups>
+    <test started-at="2026-02-18T07:52:58 IST" name="Test" finished-at="2026-02-18T07:53:00 IST" duration-ms="2341">
+      <class name="testcases.CreateNewCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CreateNewCategory@38ba6ce3]" started-at="2026-02-18T07:52:58 IST" name="setup" finished-at="2026-02-18T07:53:00 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewcategory()[pri:0, instance:testcases.CreateNewCategory@38ba6ce3]" started-at="2026-02-18T07:53:00 IST" name="createNewcategory" finished-at="2026-02-18T07:53:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewcategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.CreateNewCategory@38ba6ce3]" started-at="2026-02-18T07:53:00 IST" name="tearDown" finished-at="2026-02-18T07:53:00 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CreateNewCategory -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

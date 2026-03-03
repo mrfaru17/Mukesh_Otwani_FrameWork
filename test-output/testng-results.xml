@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-13T10:29:57 IST" name="Suite" finished-at="2026-02-13T10:30:20 IST" duration-ms="23391">
+  <suite started-at="2026-02-17T20:46:05 IST" name="Default suite" finished-at="2026-02-17T20:46:28 IST" duration-ms="22311">
     <groups>
     </groups>
-    <test started-at="2026-02-13T10:29:57 IST" name="Test" finished-at="2026-02-13T10:30:20 IST" duration-ms="23391">
-      <class name="testcases.LoginApplication">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginApplication@327bcebd]" started-at="2026-02-13T10:29:57 IST" name="setup" finished-at="2026-02-13T10:30:02 IST" duration-ms="4907" status="PASS">
+    <test started-at="2026-02-17T20:46:05 IST" name="Default test" finished-at="2026-02-17T20:46:28 IST" duration-ms="22311">
+      <class name="testcases.LoginApplicationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginApplicationTest@4f67eb2a]" started-at="2026-02-17T20:46:06 IST" name="setup" finished-at="2026-02-17T20:46:11 IST" duration-ms="5152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginApplication@327bcebd]" started-at="2026-02-13T10:30:04 IST" name="loginWithValidCredentials" data-provider="logincredentials" finished-at="2026-02-13T10:30:13 IST" duration-ms="9416" status="PASS">
+        <test-method signature="loginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:testcases.LoginApplicationTest@4f67eb2a]" started-at="2026-02-17T20:46:13 IST" name="loginWithValidCredentials" data-provider="logincredentials" finished-at="2026-02-17T20:46:21 IST" duration-ms="8076" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,23 +27,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredentials -->
-        <test-method signature="logoutFromApplication()[pri:2, instance:testcases.LoginApplication@327bcebd]" started-at="2026-02-13T10:30:13 IST" name="logoutFromApplication" finished-at="2026-02-13T10:30:18 IST" depends-on-methods="testcases.LoginApplication.loginWithValidCredentials" duration-ms="4809" status="PASS">
+        <test-method signature="logoutFromApplication()[pri:2, instance:testcases.LoginApplicationTest@4f67eb2a]" started-at="2026-02-17T20:46:21 IST" name="logoutFromApplication" finished-at="2026-02-17T20:46:26 IST" depends-on-methods="testcases.LoginApplicationTest.loginWithValidCredentials" duration-ms="4770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-        <test-method signature="verifyFooterLinks()[pri:3, instance:testcases.LoginApplication@327bcebd]" started-at="2026-02-13T10:30:18 IST" name="verifyFooterLinks" finished-at="2026-02-13T10:30:18 IST" duration-ms="20" status="PASS">
+        <test-method signature="verifyFooterLinks()[pri:3, instance:testcases.LoginApplicationTest@4f67eb2a]" started-at="2026-02-17T20:46:26 IST" name="verifyFooterLinks" finished-at="2026-02-17T20:46:26 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFooterLinks -->
-        <test-method signature="verifyNewUserLinks()[pri:4, instance:testcases.LoginApplication@327bcebd]" started-at="2026-02-13T10:30:18 IST" name="verifyNewUserLinks" finished-at="2026-02-13T10:30:20 IST" duration-ms="1244" status="PASS">
+        <test-method signature="verifyNewUserLinks()[pri:4, instance:testcases.LoginApplicationTest@4f67eb2a]" started-at="2026-02-17T20:46:26 IST" name="verifyNewUserLinks" finished-at="2026-02-17T20:46:27 IST" duration-ms="1250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewUserLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginApplication@327bcebd]" started-at="2026-02-13T10:30:20 IST" name="tearDown" finished-at="2026-02-13T10:30:20 IST" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginApplicationTest@4f67eb2a]" started-at="2026-02-17T20:46:28 IST" name="tearDown" finished-at="2026-02-17T20:46:28 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.LoginApplication -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testcases.LoginApplicationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
